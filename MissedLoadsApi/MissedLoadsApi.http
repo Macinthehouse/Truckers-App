@@ -1,0 +1,6 @@
+@MissedLoadsApi_HostAddress = http://localhost:5013
+
+GET {{MissedLoadsApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

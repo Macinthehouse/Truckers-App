@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "DlnvhAMnFew=",
+  "success": true,
+  "projectFilePath": "/Users/shaswattyagi/development/truckers_app/MissedLoadsApi/MissedLoadsApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/shaswattyagi/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.5/microsoft.aspnetcore.authentication.jwtbearer.8.0.5.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.aspnetcore.openapi/8.0.4/microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.identitymodel.abstractions/8.13.0/microsoft.identitymodel.abstractions.8.13.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.13.0/microsoft.identitymodel.jsonwebtokens.8.13.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.identitymodel.logging/8.13.0/microsoft.identitymodel.logging.8.13.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.identitymodel.tokens/8.13.0/microsoft.identitymodel.tokens.8.13.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/ssh.net/2020.0.2/ssh.net.2020.0.2.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/sshnet.security.cryptography/1.3.0/sshnet.security.cryptography.1.3.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/shaswattyagi/.nuget/packages/system.identitymodel.tokens.jwt/8.13.0/system.identitymodel.tokens.jwt.8.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
