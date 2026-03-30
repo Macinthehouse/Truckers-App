@@ -12,6 +12,15 @@ namespace MissedLoadsApi.Controllers
     [Route("api/[controller]")]
     public class ReportsController : ControllerBase
     {
+        // 1. Create a field to store the configuration
+        private readonly IConfiguration _config;
+
+        // 2. Update the constructor to inject IConfiguration
+        public ReportsController(IConfiguration config)
+        {
+            _config = config;
+        }
+
         [Authorize]
         [HttpPost("submit")]
         public IActionResult SubmitReports([FromBody] DailyReport dailyReport)
@@ -61,12 +70,12 @@ namespace MissedLoadsApi.Controllers
 
                 // Create timestamped filenames
                 string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
-                string dailyFilename = $"TCDR_{username}_{timestamp}.xml";
-                string missedFilename = $"TCML_{username}_{timestamp}.xml";
+                string dailyFilename = $"TCDR_{User.Identity?.Name}_{timestamp}.xml";
+                string missedFilename = $"TCML_{User.Identity?.Name}_{timestamp}.xml";
 
-                // Upload to SFTP
-                SftpUploader.Upload(dailyXml, dailyFilename);
-                SftpUploader.Upload(missedXml, missedFilename);
+                // 3. Update these calls to pass the _config object as the 3rd argument
+                SftpUploader.Upload(dailyXml, dailyFilename, _config);
+                SftpUploader.Upload(missedXml, missedFilename, _config);
 
                 return Ok("Daily and missed load reports submitted.");
             }
