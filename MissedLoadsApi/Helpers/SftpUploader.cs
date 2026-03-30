@@ -11,8 +11,8 @@ namespace MissedLoadsApi.Helpers
         {
             const string host = "sftp.abgcanada.com";
             const int port = 22;
-            const string username = "Srv_TCML";
-            const string password = "Wfg%%678"; // Secure this better in production
+            const string username = "Bruh";
+            const string password = "Hayabusa";  // Secure this better in production
             const string remotePath = "/home/SAP/TC_MissedLoads";
 
             using var sftp = new SftpClient(host, port, username, password);
