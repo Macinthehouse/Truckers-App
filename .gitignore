@@ -23,6 +23,7 @@
 /android/app/debug
 /android/app/profile
 /android/app/release
+<<<<<<< HEAD
 app.*.symbols
 app.*.map.json
 
@@ -32,3 +33,17 @@ app.*.map.json
 .DS_Store
 .idea/
 .vscode/
+=======
+
+# Credentials and Secrets
+**/MissedLoadsApi/appsettings.json
+**/MissedLoadsApi/appsettings.Development.json
+
+# Build folders
+**/bin/
+**/obj/
+*.sln.cache
+
+# Secrets
+**/MissedLoadsApi/appsettings.json
+>>>>>>> c463886cc7bbd7229af8e15c04406ad75d963e88
