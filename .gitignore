@@ -43,3 +43,15 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Credentials and Secrets
+**/MissedLoadsApi/appsettings.json
+**/MissedLoadsApi/appsettings.Development.json
+
+# Build folders
+**/bin/
+**/obj/
+*.sln.cache
+
+# Secrets
+**/MissedLoadsApi/appsettings.json
