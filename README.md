@@ -1,16 +1,23 @@
-# truckers_app
+# Multiplatform Logistics Reporting App
 
-A new Flutter project.
+A cross-platform mobile solution built with **Flutter** and **.NET 8** designed to modernize legacy logistics reporting. This project migrates a traditional Windows-based "Missed Load" reporting tool into a mobile environment for iOS and Android.
 
-## Getting Started
+## Key Technical Highlights
+- **Cross-Platform Migration:** Successfully transitioned legacy business logic into a modern Flutter frontend.
+- **Secure Backend API:** Developed an ASP.NET Core 8 Web API to handle data processing and SFTP uploads.
+- **Security-First Architecture:** Implemented Dependency Injection (DI) and `IConfiguration` patterns to manage sensitive server credentials securely.
+- **Enterprise Integration:** Generates standardized XML reports compatible with legacy SAP and ERP systems.
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- **Frontend:** Flutter (Dart)
+- **Backend:** .NET 8, C#
+- **Integration:** Renci.SshNet (SFTP), XML Serialization
+- **Tools:** Git, Visual Studio, VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Local Setup
+To protect sensitive server information, the `appsettings.json` file is excluded from version control. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository.
+2. Navigate to the `MissedLoadsApi` directory.
+3. Copy `appsettings.Example.json` and rename it to `appsettings.json`.
+4. Enter your specific SFTP server credentials in the new file.
